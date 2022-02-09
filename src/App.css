@@ -1,0 +1,21 @@
+.file-upload{
+    height: 100px;
+    width:100%;
+    border-radius: 20px;
+    border: 1px dotted #444;
+    background-color: #ccc;
+    margin-top: 20px;
+    padding: 5px;
+    cursor: pointer;
+    overflow: auto;
+    text-rendering: optimizeLegibility;
+    filter: blur(0%)
+}
+
+.circular-progress{
+    width: 100%;
+    position:relative;
+    text-align: center;
+    margin: auto;
+}
+
