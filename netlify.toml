@@ -1,0 +1,18 @@
+[build.environment]
+    REACT_APP_FIREBASE_API_KEY = AIzaSyCAFkjKpV3NDi2raqzkuEQjjrQkY-0X1AU
+    REACT_APP_FIREBASE_AUTH_DOMAIN= property-management-syst-462cf.firebaseapp.com
+    REACT_APP_FIREBASE_PROJECT_ID= property-management-syst-462cf
+    REACT_APP_FIREBASE_STORAGE_BUCKET=property-management-syst-462cf.appspot.com
+    REACT_APP_FIREBASE_MESSAGING_SENDER_ID= 1070863658020
+    REACT_APP_FIREBASE_APP_ID =1:1070863658020:web:58e37ade69bfbaa1f6fcb1
+    REACT_APP_FIREBASE_MEASUREMENT_ID=G-VLL7225MFQ
+    REACT_APP_FIREBASE_DATABASE_URL= https://property-management-syst-462cf-default-rtdb.asia-southeast1.firebasedatabase.app
+    REACT_APP_FIREBASE_CAPTCHA =super-secret-admin-capcha-key
+    REACT_APP_PUBLIC_DOMAIN=https://wilbreeze-test-domain.netlify.app
+
+# The following redirect is intended for use with most SPAs 
+# that handle routing internally.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
