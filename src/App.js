@@ -72,7 +72,7 @@ function App() {
         </Routes>
       </Router>
 
-      <div style={{ position: "fixed", bottom: "-40px", right: "0", zoom: ".9" }}>
+      <div style={{ position: "fixed", bottom: "-35px", right: "0", zoom: ".7" }}>
         <WhatsAppWidget phoneNumber={state.whatsappnumber} message={`Hi \nHow can we help you? \nHelp us help you by contacting us today.`} />
       </div>
       <a style={{ position: "fixed", bottom: "0", left: "0%", width: "0%" }} className="scroll-to-top js-scroll-trigger" href="#top-header">
