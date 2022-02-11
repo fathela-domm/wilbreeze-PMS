@@ -8,7 +8,7 @@ export function ProjectWrapComponent(props) {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="section-heading">
-                            <h1 className="text-white">We are trying to deliver 100% quality services for our clients to achieve their ultimate goal.</h1>
+                            <h1 className="text-white">We are trying to deliver 100% quality services for our clients to help them achieve their ultimate goal.</h1>
                         </div>
                     </div>
                     <div className="col-lg-6">
