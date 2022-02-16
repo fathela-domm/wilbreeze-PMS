@@ -194,9 +194,9 @@ export default function CreatePropertyComponent({ showCreateModal, setShowCreate
             phase: phase,
             type: type,
             overview: overview,
-            externalFeatures: externalFeatures,
-            internalFeatures: internalFeatures,
-            nearby: nearby,
+            externalFeatures: externalFeatures.length == 0 ? ["CCTV"] : externalFeatures,
+            internalFeatures: externalFeatures.length == 0 ? ["Alarm"] : externalFeatures,
+            nearby: nearby.length == 0 ? ["School", "Hospital", "Bus Stop"] : nearby,
         }
 
         let fileUrls = [];
